@@ -1,0 +1,23 @@
+.Header {
+  width: 80%;
+  height: 100px;
+
+  position: relative;
+
+  bottom: 1px;
+
+  &-List {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-ListemItem {
+    list-style: none;
+  }
+  &-Link {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+  }
+}
